@@ -1,0 +1,481 @@
+.signin-btn {
+    background: #1b75bc;
+    border-radius: 10px;
+    border: 1px solid #1b75bc;
+    transition: 0.4s;
+    padding: 0px 5px;
+    margin-left: 11px;
+}
+.signin-btn a {
+    color: #fff !important;
+}
+.signin-btn svg {
+    fill: #fff;
+    margin-right: 8px;
+    width: 19px;
+}
+.signin-btn:hover {
+    background: #ffffff;
+}
+.signin-btn:hover a {
+    color: #000 !important;
+}
+.signin-btn:hover svg {
+    fill: #000 !important;
+}
+.rregistro-icon {
+    margin-right: 7px;
+}
+.instituto-icon {
+    margin-right: 8px;
+    margin-left: 13px;
+}
+/*
+.instituto-icon {
+    width: 26px;
+    margin-left: 10px;
+    margin-top: -12px;
+}*/
+/*
+.rregistro-icon {
+    margin-top: -7px;
+}*/
+.nav-link:hover {
+    color: #1b75bc !important;
+}
+.nav-link:hover svg {
+    fill: #1b75bc;
+}
+.items-footer a {
+    margin-left: 50px;
+    color: #1b75bc !important;
+    cursor: pointer;
+}
+
+.tooltip-nav_wiki {
+    left: 0;
+    width: 100%;
+}
+.copy-footer {
+    color: #9c9c9c;
+    padding-bottom: 20px;
+}
+.items-footer {
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+.about img {
+    width: 35px;
+}
+.cerrar_sesion-xs {
+    display: none !important;
+}
+.table .login_icon {
+    height: auto;
+}
+.navbar-nav {
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: inherit;
+}
+.drop-notificacion .tooltip-nav {
+    left: -21px;
+}
+.option-none_menu .tooltip-nav {
+    left: 0px;
+}
+.tooltip-nav_wiki {
+    left: 0;
+    width: 139px;
+    top: 45px;
+}
+.main-profile_dates i {
+    margin-left: 0;
+}
+.button-launch {
+    display: none;
+}
+.center__icons p {
+    margin-bottom: 0;
+}
+.center__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-delete_xs{
+    display: none;
+}
+.content--btns{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.content--btns .btn-danger{
+    background: transparent;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    color: #dc3545;
+    width: 150px;
+}
+.btn-danger:hover {
+    background: #dc3545;
+    color: #fff;
+
+}
+.content--btns  .btn-custom{
+    width: 150px;
+}
+.menu-style_new{
+    margin-top: 3rem;
+}
+.modal-body{
+    word-wrap: anywhere;
+}
+/**mediasquery */
+@media only screen and (max-width: 600px) {
+    #dropdownMenuButton{
+        padding: 0;
+        padding-right: 1px;
+    }
+    .last-menu {
+        display: block;
+    }
+    .check-inst input {
+        width: auto;
+    }
+    .check-inst-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .word h3 {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    .feactured-home {
+        margin: 0rem 0;
+    }
+    .signin-btn svg {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .signin-btn {
+        padding: 0px 9px !important;
+    }
+    .register-modal .form-check {
+        padding-left: 1.25rem;
+    }
+    .pl-90 {
+        padding: 0 25px;
+    }
+    .p14 {
+        padding: 0 1rem;
+    }
+    .main-modal .form-check-label {
+        font-size: 13px;
+    }
+    .home {
+        margin-top: 4.5rem;
+    }
+    .items-footer a {
+        margin-left: 0;
+        display: grid;
+        margin-bottom: 10px;
+    }
+    .option-none_menu p,
+    .cerrar_sesion {
+        display: none;
+    }
+    .cerrar_sesion-xs {
+        display: block !important;
+    }
+    .icon-mas {
+        width: 30px !important;
+    }
+    .nones-xs-show {
+        display: block;
+    }
+    .nones-xs-show .teacher-icon {
+        margin-right: 0px !important;
+    }
+    .nones-xs-show {
+        margin-right: 0 !important;
+    }
+    .feactured-one {
+        overflow: hidden;
+    }
+ #wiki-template,  #own-template {
+        margin-top: 3rem;
+    }
+    .last-style {
+        display: none;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .save-option {
+        margin-left: 0rem !important;
+    }
+    .brand img {
+        width: 120px;
+    }
+  /*  .nav_menu1 {
+        top: 6px!important;
+    }*/
+   /* #own-template .nav_menu1 ,  #wiki-template .nav_menu1 {
+        top: 13px!important;
+    }*/
+    .problem-noness-lg{
+        display: block;
+    }
+    .problem-noness{
+        display: none;
+    }
+
+    .trash-style{
+       /* position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 20px;*/
+        display: flex;
+      /*  align-items: center;
+        background: #dc3545;
+        color: #fff;
+        font-size: 11px;
+        padding: 1px 18px;
+        border-radius: 8px;
+        justify-content: center;*/
+    }
+ 
+    .trash-style svg{
+        width: 29px;
+        /* fill: #fff; */
+        margin-right: 6px;
+        margin-top: 3px;
+    }
+   .edit-top{
+       margin-top: 0;
+   }
+}
+/*tablet*/
+@media (max-width: 768px) {
+    /*#wiki-template,  #own-template {
+        margin-top: 6rem;
+    }*/
+   /* .nav_menu1 {
+        top: 12px;
+    }*/
+    .feactured-home .btn-custom {
+        font-size: 0.6rem;
+    }
+    .register-modal .form-check {
+        padding-left: 1.25rem;
+    }
+    .pl-90 {
+        padding: 0 25px;
+    }
+    .signin-btn {
+        padding-bottom: 0 !important;
+        padding-right: 0;
+    }
+    .signin-btn .nav-link {
+        padding-right: 0 !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+    .menu-template {
+        left: 50px;
+        width: 200px;
+        margin-top: 0px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-calendar {
+        width: 15px;
+        margin-right: 1px;
+    }
+    .last-style {
+
+        padding-right: 30px;
+    }
+   #own-template{
+    margin-top: 6rem!important;
+   }
+   .mr_ml-probelm{
+    position: fixed;
+    right: 8px;
+    bottom: 20px;
+   }
+   .trash-style{
+    display: block;
+    margin-top: -4px;
+}
+}
+/*IPHONE x */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .header-shadow {
+        height: 9vh;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .p5 {
+        padding-top: 4rem;
+    }
+    .brand {
+        width: 31%;
+    }
+    .menu-template {
+        display: none;
+    }
+    .launch-xs {
+        display: none;
+        position: fixed;
+        z-index: 9;
+        bottom: 0;
+        /* border-radius: 50%; */
+        width: 60px;
+        height: 38px;
+        right: 12px;
+        font-size: 11px;
+        padding: 5px 5px;
+    }
+    .button-launch {
+        font-size: 0.8rem;
+        width: 70px;
+        padding: 4px 0px;
+        margin-right: 12px;
+        margin-top: 17px;
+        display: block !important;
+    }
+    .menu-flex_1 .mr-4 {
+        margin-right: 0rem!important;
+    }
+    .new_wiki span{
+        display: none;
+    }
+    .last-style {
+
+        display: none;
+    }
+    .button-launch {
+        font-size: 0.8rem;
+        width: 70px;
+        padding: 6px 0px;
+        margin-right: 0;
+        margin-top: 0;
+        display: block !important;
+        font-size: 11px;
+        margin-left: 10px;
+    }
+
+    .header-icons .ml-5 {
+        margin-left: 1.1rem!important;
+    }
+    .mr_ml-probelm{
+        position: fixed;
+        bottom: 1px;
+        right: 19px;
+    }
+    .menu-botoom  .flex-main {
+        margin-right: 18px;
+    }
+    .menu-show_xs {
+        margin-right: 25px;
+
+    }
+    .main-template{
+        padding-top: 3rem;
+    }
+    .trash-style{
+        display: block;
+        margin-top: -4px;
+    }
+}
+/*ipad PRO*/
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    .header-shadow {
+        height: 7vh;
+    }
+    .nav {
+        left: -38px;
+    }
+  
+}
+/*ipad*/
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+    .header-shadow {
+        height: 7vh;
+    }
+}
+/*galaxy*/
+@media only screen and (device-width: 280px) and (device-height: 653px) {
+    .brand img {
+        width: 85px !important;
+    }
+    #dropdownMenuButton{
+        padding: 0;
+    }
+    .icon-mas {
+        width: 25px !important;
+    }
+    .notificacion {
+        width: 22px!important;
+    }
+    .teacher-icon {
+        width: 20px!important;
+    }
+    .problem-btn {
+        width: auto;
+        margin-right: 11px;
+        padding: 5px 10px;
+    }
+
+    .mr-probelm{
+        position: fixed;
+        right: 0;
+        bottom: 15px;
+    }
+    .nav_menu1 {
+        top: 1px;
+    }
+}
+@media (max-width: 992px) and (max-width: 1199px) {
+    .navbar-nav {
+        width: auto;
+    }
+    #wiki-template {
+        margin-top: 6rem;
+    }
+    .problem-btn {
+        position: revert;
+     
+    }
+    .problem-btn p {
+
+        font-size: 11px;
+    }
+ 
+}
+@media only screen and (device-width: 1024px) and (device-height: 519px) {
+    .instituto-icon {
+        margin-top: 0;
+        margin-right: 10px;
+    }
+}
+@media only screen and (device-width: 320px) and (device-height: 568px) {
+    .problem-btn {
+        position: fixed;
+        top: 15%;
+    }
+
+}
+@media (max-width: 1200px) {
+/*.info-template{
+    margin-top: 5rem;
+}*/
+}

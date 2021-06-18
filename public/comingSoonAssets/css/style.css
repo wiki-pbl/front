@@ -1,0 +1,91 @@
+.div-coming{
+    background-image: url(../img/MC_CCN0779.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 20%;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.icon-social{
+    width: 50px;
+    margin: 8px;
+}
+h1{
+    color: #fff;
+   font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    
+}
+.social a{
+    color: #fff;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social-div{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+
+}
+.logo{
+      width: 100%;
+}
+.coming-soon div{
+    justify-content: center;
+    display: flex;
+}
+/*.coming-soon {    
+    position: absolute;
+    top: 15%;
+}*/
+.coming-soon{
+    margin-left: 12%;
+}
+.coming-soon h1{
+           font-size: 2.9rem;
+        margin: 0;
+}
+
+@media (max-width: 768px) {
+  .coming-soon {
+    margin-left: 0;
+    width: 100%;
+}
+}
+@media (max-width: 600px) {
+   
+}
+@media (max-width: 425px) {
+    .logo {
+        width: 80%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .social a {
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+   .coming-soon {
+    margin-left: 0;
+    width: 100%;
+}
+}
